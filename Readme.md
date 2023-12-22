@@ -106,4 +106,4 @@ A file named `package.json` will generated, That looks like:
 
 ```
 All fields are clearly discibing itself,\
-Here `main`, `scripts` and a missing field `dependencies` are important.
+Here `main`, `scripts` and two missing fields `dependencies`, `devDependencies` are important.
