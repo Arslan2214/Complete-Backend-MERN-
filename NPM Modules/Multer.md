@@ -48,9 +48,11 @@ module.exports = multer({ storage: storage });
 #### 4. Implement to Server:
 Create new route with following code. 
 ```any .ejs file
+const upload = require("./multer");   // On top
+
 router.post(
   "/fileUpload",
-  upload.single("avatar"),
+  upload.single("fileToUpload"),
   (req, res) => {
     if (req.file) {
         return res.send("File Uploaded");

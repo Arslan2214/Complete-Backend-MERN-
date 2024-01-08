@@ -2,7 +2,7 @@
 Passport.js is npm module that is used **for manage Authentication into your express-project.**
 
 Here, we will learn:
-- Install Passport
+- Install Passport.js
 - Config User Model
 - Configration for app.js 
 - LogIn, Register & Logout (with passport.js)
