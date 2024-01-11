@@ -1,8 +1,13 @@
 # Multer.js 
-
+Multer is a Node.js middleware designed for managing multipart/form-data, commonly used for file uploads.\
+Multer.js makes it easy to handel file uploads.
+## Do I need Multer.js?
+<div>
+Multer enables you to manage both single and multiple files form HTML form. It's important to note that Multer should only be utilized when dealing with file uploads through forms, as it is specifically designed for multipart form data.
+</div>
 
 ---
-## Steps:
+## Steps to use Multer.js:
 ####  1. Install Multer:
 Install Multer using npm:
 
